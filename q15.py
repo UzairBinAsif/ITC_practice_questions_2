@@ -5,7 +5,7 @@ def func(n):
         return 'not prime'
     if n == 2:
         return 'prime'
-    for i in range(2, 1001):
+    for i in range(2, int(1e3)):
         if i==n:
             continue
         if n%i==0:
