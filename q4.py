@@ -1,7 +1,3 @@
-sums = 0
-while True:
-    x = input('Enter a number: ')
-    if x:
-        sums += int(x)
-    else: break
-print(f'Sum of digits: {sums}')
+n, sums = input('Enter a number: '), 0
+for i in n: sums+=int(i)
+print(sums)
